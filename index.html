@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+    <meta name="description" content="Gokulakrishnan - Cloud & DevOps Engineer Portfolio">
+    <title>Gokulakrishnan - Cloud & DevOps Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+</head>
+<body>
+    <div class="animated-gradient"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">GK</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="hamburger" class="hamburger"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false"
+                    aria-controls="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero-inner">
+            <div class="hero-content">
+            <h1>Hi, I'm Gokulakrishnan 👋</h1>
+            <h2>Cloud & DevOps Engineer</h2>
+            <p>I design, build and automate cloud-native solutions using Azure, Docker, GitHub, and CI/CD pipelines.</p>
+            <div class="cta-buttons">
+                <a href="assets/resume.pdf" target="_blank" class="btn btn-primary">View Resume</a>
+                <a href="#projects" class="btn btn-secondary">View Projects</a>
+            </div>
+            <div class="skills-preview">
+                <img src="assets/icons/azure.svg" alt="Azure">
+                <img src="assets/icons/docker.svg" alt="Docker">
+                <img src="assets/icons/azure-devops.svg" alt="Azure DevOps">
+                <img src="assets/icons/kubernetes.svg" alt="Kubernetes">
+            </div>
+            </div> <!-- close hero-inner -->
+        </div>
+    </section>
+   
+   
+    <!-- About Section -->
+    <section id="about">
+    <div class="about-container">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+            <div class="about-row">
+                <div class="about-asset" id="cloud-animation"></div>
+                <div class="about-text">
+                    <p>I design and manage scalable, secure, and production-ready cloud environments on Microsoft Azure.
+                       My experience includes deploying containerized applications using Docker, pushing images to Azure Container Registry (ACR), configuring Azure App Service, and managing networks such as VNets, peering, and storage.
+                       I focus on cloud security hardening, monitoring, and building architectures that support high availability and reliability.</p>
+                </div>
+            </div>
+            <div class="about-row">
+                <div class="about-text">
+                    <p>I build and maintain CI/CD pipelines using Azure DevOps and GitHub Actions to automate build, test, and release workflows.
+                       My work includes infrastructure automation, deployment activities, and implementing disaster-recovery solutions such as Azure Site Recovery to improve application resilience.
+                       I enjoy creating repeatable, observable, and efficient DevOps processes that help teams ship faster with confidence.</p>
+                </div>
+                <div class="about-asset" id="devops-animation"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="assets/icons/azure.svg" alt="Azure">
+                <p>Azure</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/icons/azure-devops.svg" alt="Azure DevOps">
+                <p>Azure DevOps</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/icons/aws.svg" alt="AWS">
+                <p>AWS</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/icons/docker.svg" alt="Docker">
+                <p>Docker</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/icons/kubernetes.svg" alt="Kubernetes">
+                <p>Kubernetes</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/icons/github.svg" alt="GitHub">
+                <p>GitHub</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/icons/git.svg" alt="Git">
+                <p>Git</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/icons/python.svg" alt="Python">
+                <p>Python</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/icons/linux.svg" alt="Linux">
+                <p>Linux</p>
+            </div>
+
+            <div class="skill-card">
+                <img src="assets/icons/vscode.svg" alt="VS Code">
+                <p>VS Code</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-list">
+            <div class="experience-card">
+                <h3>DevOps Engineer</h3>
+                <div class="company">Kat Enterprises LLC</div>
+                <div class="duration">Oct 2025 – Present</div>
+                <ul>
+                    <li>Working in real-time production environments.</li>
+                    <li>Managing Docker deployments and CI/CD pipelines.</li>
+                    <li>Supporting automation workflows using Azure DevOps & GitHub.</li>
+                    <li>Collaborating with developers using VS Code.</li>
+                </ul>
+            </div>
+            <div class="experience-card">
+                <h3>Cloud Intern</h3>
+                <div class="company">Fourth Dimension Technologies</div>
+                <div class="duration">Jul 2025 – Sep 2025</div>
+                <ul>
+                    <li>Configured Azure VNets, peering, storage, and monitoring.</li>
+                    <li>Worked with VM deployments and IAM.</li>
+                    <li>Configured Application Gateway, Load Balancers, ASR.</li>
+                    <li>Documented best practices.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Containerized Web App Deployment on Azure</h3>
+                <p>Built MERN application and deployed it on Linux VM using Docker Compose. Containerized the application and pushed the image to Azure Container Registry for efficient deployment and scaling.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">Docker Compose</span>
+                    <span class="tech-tag">Azure</span>
+                    <span class="tech-tag">ACR</span>
+                    <span class="tech-tag">Linux</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="https://github.com/gokulgokzz27/mern-docker-compose-app" 
+                     class="btn btn-primary btn-small" 
+                     target="_blank"
+                     rel="noopener noreferrer">
+                     GitHub Code
+                    </a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Azure DevOps CI/CD Pipeline</h3>
+                <p>Automated build and Docker packaging process with CI pipeline. Implemented CD pipeline to push images to Azure Container Registry and deploy to Azure App Service, ensuring seamless continuous deployment.</p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Azure DevOps</span>
+                    <span class="tech-tag">CI/CD</span>
+                    <span class="tech-tag">Docker</span>
+                    <span class="tech-tag">Azure App Service</span>
+                    <span class="tech-tag">ACR</span>
+                </div>
+                <div class="project-buttons">
+                    <a href="https://github.com/gokulgokzz27/azure-devops-cicd-pipeline" 
+                       class="btn btn-primary btn-small"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                       GitHub Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><strong>Name:</strong> Gokulakrishnan Mahesh</p>
+                <p><strong>Email:</strong> <a href="mailto:gokulakrishnan0118@gmail.com">gokulakrishnan0118@gmail.com</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/gokulakrishnan-mahesh/" target="_blank">https://www.linkedin.com/in/gokulakrishnan-mahesh</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/gokulgokzz27" target="_blank">https://github.com/gokulgokzz27</a></p>
+            </div>
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/xnnljoeg" method="POST">
+                <div id="formMessage" class="form-message" aria-live="polite" role="status"></div>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Gokulakrishnan. All rights reserved.</p>
+    </footer>
+    
+    <!-- Floating theme toggle -->
+    <button id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="Toggle theme" type="button">
+        <span id="theme-icon">☀️</span>
+    </button>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
