@@ -170,19 +170,19 @@ section {
 .hero-content h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: var(--dark);
+  color: #000000;
 }
 
 .hero-content h2 {
   font-size: 1.75rem;
-  color: var(--text-gray);
+  color: #333333;
   font-weight: 400;
   margin-bottom: 1.5rem;
 }
 
 .hero-content p {
   font-size: 1.2rem;
-  color: var(--text-gray);
+  color: #333333;
   max-width: 700px;
   margin: 0 auto 2.5rem;
   line-height: 1.8;
@@ -319,7 +319,7 @@ section {
 }
 
 .about-text p {
-    color: #555;
+    color: #000000;
     line-height: 1.8;
     margin-bottom: 0;
     font-size: 1.05rem;
@@ -570,7 +570,7 @@ section {
 }
 
 .contact-info p {
-  color: var(--text-gray);
+  color: #000000;
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
@@ -595,7 +595,9 @@ section {
 }
 
 .contact-info a {
-  color: var(--primary-blue);
+  color: #000000;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .contact-info a:hover {
@@ -910,6 +912,27 @@ html[data-theme="dark"] #contact {
   background-color: transparent; /* let page bg show through */
 }
 
+/* Dark mode text for hero section */
+html[data-theme="dark"] .hero-content h1 {
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .hero-content h2,
+html[data-theme="dark"] .hero-content p {
+  color: #e0e0e0;
+}
+
+/* Dark mode text for about section */
+html[data-theme="dark"] .about-text p {
+  color: #ffffff;
+}
+
+/* Dark mode links in contact section */
+html[data-theme="dark"] .contact-info a {
+  color: #ffffff;
+  font-weight: 600;
+}
+
 /* Ensure section and card headings are high-contrast in dark mode */
 html[data-theme="dark"] .section-title,
 html[data-theme="dark"] .project-card h3,
@@ -941,11 +964,7 @@ html[data-theme="dark"] .experience-card li {
 /* Contact / form: ensure labels, values and placeholders are readable in dark mode */
 html[data-theme="dark"] .contact-info h3,
 html[data-theme="dark"] .contact-info p {
-  color: var(--text);
-}
-
-html[data-theme="dark"] .contact-info a {
-  color: var(--accent);
+  color: #ffffff;
 }
 
 html[data-theme="dark"] .form-group label {
