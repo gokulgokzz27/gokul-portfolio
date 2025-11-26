@@ -1167,9 +1167,9 @@ header,
   z-index: -2;
   top: 0;
   left: 0;
-  background: linear-gradient(-45deg, #1a2a6c, #0d47a1, #6dd5fa, #0077b6);
+  background: linear-gradient(-45deg, #2a4ba8, #1e7cb1, #7ce5ff, #3ba5d6);
   background-size: 400% 400%;
-  animation: gradientShift 15s ease infinite;
+  animation: gradientShift 25s ease infinite;
 }
 
 @keyframes gradientShift {
